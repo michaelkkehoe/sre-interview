@@ -6,5 +6,6 @@ A collection of questions to practice with for SRE interviews
 * [Host Manager/ Culture/ Soft Skills](culture.md)
 * Linux Systems
 * Incident Response
-* System Design
+* [System Design](system-design.md)
 * Networking
+* Observability/ Monitoring
