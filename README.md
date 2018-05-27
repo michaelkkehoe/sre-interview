@@ -8,4 +8,4 @@ A collection of questions to practice with for SRE interviews
 * Incident Response
 * [System Design](system-design.md)
 * Networking
-* Observability/ Monitoring
+* [Observability/ Monitoring](observability.md)
