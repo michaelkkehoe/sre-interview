@@ -59,6 +59,8 @@
   * CGroups
   * limits.conf
   * CPU affinity
+  * nice
+  * cpulimit
 ## Capabilities
 * CAP_AUDIT_CONTROL
   * Enable and disable kernel auditing
