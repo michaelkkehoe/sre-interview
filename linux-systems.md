@@ -35,6 +35,23 @@
   * Message Queues
   * Semaphores
   * Shared memory
+* What is an inode?
+  * All files (and directories) have its description stores in an inode. An inode contains the following fields
+  * Device ID
+  * File serial numbers
+  * The file mode which determines file type and how the file owners can access the file
+  * A link count telling how many hard links point to the inode
+  * User ID of the file owners
+  * group ID of the file
+  * Device ID of the file if it's a device file
+  * File size in bytes
+  * Timestamps telling when the inode itself was last modified (ctime), the file content was modified (mtime) and last accessed (atime)
+  * preferred I/O block size
+  * The number of blocks allocated to this file
+* How can you speed up accessing files?
+  * Disable atime modification in /etc/fstab
+* Where are filenames stored
+  * Unix directories are what map file system names (e.g. perl) to inode numbers (e.g. 266327) that contain the actual data. A directory is a special file that the kernel maintains. Only kernel modifies directories, but processes can read directories. The contents of a directory are a list of filename and inode number pairs. When new directories are created, kernel makes two entries named '.' (refers to the directory itself) and '..' (refers to parent directory). System call for creating directory is mkdir (pathname, mode).
 * What is a Hard Link:
   * Hard link is the exact replica of the actual file it is pointing to. Both the hard link and the linked file shares the same inode.
 * What is a Soft Link:
@@ -44,7 +61,12 @@
 * What is the maximum length of a filename under linux?
   * This is based on the filesystem. Generally it’s 255 bytes for the filename
 * What are filenames that are preceded by a dot?
-  * In general, filenames that are preceded by a dot are hidden files. These files can be configuration files that hold important data or setup info. Setting these files as hidden makes it less likely to be accidentally deleted.  
+  * In general, filenames that are preceded by a dot are hidden files. These files can be configuration files that hold important data or setup info. Setting these files as hidden makes it less likely to be accidentally deleted.
+* What is a FIFO pipe?
+  * First-in-first-out pipe known as a 'named-pipe'
+* What is the difference between ext4 and ext3?
+  * Ext4 max file size 16TB, Ext3 is 2TB
+  * Ext4 max filesystem size is 1EB, ext3  is 32TB
 ## Memory
 * Process memory layout
   * Text: the instructions of the program
