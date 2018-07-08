@@ -7,5 +7,5 @@ A collection of questions to practice with for SRE interviews
 * [Linux Systems](linux-systems.md)
 * Incident Response
 * [System Design](system-design.md)
-* Networking
+* [Networking](networking.md)
 * [Observability/ Monitoring](observability.md)
