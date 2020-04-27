@@ -13,5 +13,5 @@ The purpose of this interview is to test your abilities to demonstrate that you 
 2. What is the difference between an L4/ L7 loadbalancer
 3. Whare are some caching strategies
 4. Explain the differences between SQL & NoSQL and where you would use each one.
-5. Describe partioning/ sharding
+5. Describe partitioning / sharding
 6. CAP theorem
