@@ -23,6 +23,10 @@
 * What is Kernel-mode vs User-mode
   * When in user mode, CPU can only access memory marked for user space
   * When in Kernel mode, CPU can access memory in kernel & user space
+* What is LD_LIBRARY_PATH
+* What are the difference modes of network bonding
+* Describe the /proc filesystem
+* What are sysctl's
 ## File-System
 * What are the various filesystem mount options and what do they do
 * What are the basic file I/O methods
