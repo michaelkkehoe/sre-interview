@@ -14,4 +14,9 @@ The purpose of this interview is to test your abilities to demonstrate that you 
 3. Whare are some caching strategies
 4. Explain the differences between SQL & NoSQL and where you would use each one.
 5. Describe partitioning / sharding
-6. CAP theorem
+6. What is the CAP Theorem
+7. What does ACID mean?
+8. Why should nearline batch-processing consumers not serve online traffic
+9. Explain methods to perform client-side load-balancing
+10. Explain methods to perform server-side/ host-side load balancing
+11. How to you ensure users get a consistent experience when you run multiple environments/ data-centers
