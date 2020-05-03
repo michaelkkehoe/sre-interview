@@ -60,3 +60,24 @@
 ## Loadbalancing
 1. What's the difference between a L2, L4, L7 load-balancer
 2. What are the various load-balancing methods?
+
+## Routing Protocols
+### BGP
+1. What the 6 BGP session states
+2. What port/ protocol does BGP run on
+3. Explain the difference between eBGP and iBGP
+4. What is the smallest prefix size you can publically announce
+5. What is a BGP community?
+6. What is the administrative distance BGP uses for iBGP and eBGP
+7. What is the difference between a hard reset and soft reset
+8. What are the different BGP message types
+9. What are the BGP path attributes
+10. What is an AS
+11. What is a route reflector
+12. What is the BGP path selection criteria
+13. What is the purpose of route dampening
+
+### OSPF
+
+## References
+* http://networkerinterview.net/entries/bgp/border-gateway-protocol-ccnp
