@@ -78,6 +78,17 @@
 13. What is the purpose of route dampening
 
 ### OSPF
+1. What is a OSPF
+2. What are the steps to create router adjacency
+3. What is a LSA
+4. What is a LSU
+5. What is a LSR
+6. What is an OSPF backbone area
+7. What are the different neighbour states
+8. What are the different OSPF network types
+9. What is the default link cost
+10. Explain stubby areas and non-so-stubby-area
+11. What are the three types of authentication supported by OSPF
 
 ## References
 * http://networkerinterview.net/entries/bgp/border-gateway-protocol-ccnp
