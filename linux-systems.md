@@ -6,7 +6,10 @@
   * See [https://github.com/alex/what-happens-when](https://github.com/alex/what-happens-when)
 * How does SSH Work
   * See [https://www.slashroot.in/secure-shell-how-does-ssh-work](https://www.slashroot.in/secure-shell-how-does-ssh-work)
-  
+* Explain how eBPF works
+* Explain how network packets are processed from the NIC to user-space
+* Describe how a reimaging system works
+
 # Short-form Questions
 ## Kernel
 * What tasks are performed by the kernel
@@ -21,6 +24,7 @@
   * When in user mode, CPU can only access memory marked for user space
   * When in Kernel mode, CPU can access memory in kernel & user space
 ## File-System
+* What are the various filesystem mount options and what do they do
 * What are the basic file I/O methods
   * open
   * read
