@@ -1,11 +1,8 @@
 # Long-form Questions
 
 * Describe the boot process of a Linux System
-  * See [https://github.com/nu11secur1ty/All-Stages-of-Linux-Booting-Process-](https://github.com/nu11secur1ty/All-Stages-of-Linux-Booting-Process-)
 * Describe what happens when you type www.google.com into the Browser
-  * See [https://github.com/alex/what-happens-when](https://github.com/alex/what-happens-when)
 * How does SSH Work
-  * See [https://www.slashroot.in/secure-shell-how-does-ssh-work](https://www.slashroot.in/secure-shell-how-does-ssh-work)
 * Explain how eBPF works
 * Explain how network packets are processed from the NIC to user-space
 * Describe how a reimaging system works
