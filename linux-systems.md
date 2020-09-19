@@ -15,6 +15,7 @@
 * What are the difference modes of network bonding
 * Describe the /proc filesystem
 * What are sysctl's
+* What are some sysctl's that you could modify to 
 
 ## File-System
 * What are the various filesystem mount options and what do they do
