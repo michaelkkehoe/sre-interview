@@ -1,8 +1,17 @@
+## General
+* What is the benefit of a protocol like QUIC
+* Why would you potentially want to use UDP for a long-distance VPN connection (non commercial)
+* What protocol is usually used within corporate networks
+* What are some of the TCP congestion protocols
+* What is IP fragmentation
+* Explain how ping works
+
+
 ## IP Addressing
-1. How many usable addresses in a /24
-2. How large is a /16
-3. What is RFC-1918 
-4. What is the subnet mask of 10.2.1.2/22
+* How many usable addresses in a /24
+* How large is a /16
+* What is RFC-1918 
+* What is the subnet mask of 10.2.1.2/22
 
 ## OSI Model
 1. What is the OSI model
