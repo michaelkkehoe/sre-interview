@@ -1,10 +1,10 @@
 ## General
-** What is the benefit of a protocol like QUIC
-** Why would you potentially want to use UDP for a long-distance VPN connection (non commercial)
-** What protocol is usually used within corporate networks
-** What are some of the TCP congestion protocols
-** What is IP fragmentation
-** Explain how ping works
+* What is the benefit of a protocol like QUIC
+* Why would you potentially want to use UDP for a long-distance VPN connection (non commercial)
+* What protocol is usually used within corporate networks
+* What are some of the TCP congestion protocols
+* What is IP fragmentation
+* Explain how ping works
 
 ## IP Addressing
 * How many usable addresses in a /24
