@@ -5,6 +5,7 @@
 * What are some of the TCP congestion protocols
 * What is IP fragmentation
 * Explain how ping works
+* What is TCP Fast Open and what are the reasons to use it and not to use it. 
 
 
 ## IP Addressing
