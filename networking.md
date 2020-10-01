@@ -99,5 +99,7 @@
 10. Explain stubby areas and non-so-stubby-area
 11. What are the three types of authentication supported by OSPF
 
-## References
+## Good Reads
+* [How do TCP Sockets work](https://eklitzke.org/how-tcp-sockets-work)
+## Question References
 * http://networkerinterview.net/entries/bgp/border-gateway-protocol-ccnp
