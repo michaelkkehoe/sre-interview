@@ -101,5 +101,8 @@
 
 ## Good Reads
 * [How do TCP Sockets work](https://eklitzke.org/how-tcp-sockets-work)
+* [The inner workings of bind and listen on Linux](https://ops.tips/blog/how-linux-tcp-introspection/)
+* [How TCP backlog works in Linux](http://veithen.io/2014/01/01/how-tcp-backlog-works-in-linux.html)
+
 ## Question References
 * http://networkerinterview.net/entries/bgp/border-gateway-protocol-ccnp
