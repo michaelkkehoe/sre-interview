@@ -1,37 +1,4 @@
-# Long-form Questions
 
-* Describe the boot process of a Linux System
-* Describe what happens when you type www.google.com into the Browser
-* How does SSH Work
-* Explain how eBPF works
-* Explain how network packets are processed from the NIC to user-space
-* Describe how a reimaging system works
-
-# Short-form Questions
-## Kernel
-* What tasks are performed by the kernel
-* What is Kernel-mode vs User-mode
-* What is LD_LIBRARY_PATH
-* What are the difference modes of network bonding
-* Describe the /proc filesystem
-* What are sysctl's
-* What are some sysctl's that you could modify to 
-
-## File-System
-* What are the various filesystem mount options and what do they do
-* What are the basic file I/O methods
-* What is a file descriptor
-* What are the different types of IPC:
-* What is an inode?
-* How can you speed up accessing files?
-* Where are filenames stored
-* What is a Hard Link:
-* What is a Soft Link:
-* What is the /proc filesystem?
-* What is the maximum length of a filename under linux?
-* What are filenames that are preceded by a dot?
-* What is a FIFO pipe?
-* What is the difference between ext4 and ext3?
 
 ## Memory
 * What is basic memory layout of a process
@@ -42,44 +9,7 @@
 
 ## Resource Control
 * What are the basic techniques for resource control?
-## Capabilities
-* CAP_AUDIT_CONTROL
-*  CAP_AUDIT_READ
-* CAP_AUDIT_WRITE
-* CAP_BLOCK_SUSPEND
-* CAP_CHOWN
-* CAP_DAC_OVERRIDE
-* CAP_DAC_READ_SEARCH
-* CAP_FOWNER
-* CAP_FSETID
-* CAP_IPC_LOCK
-* CAP_IPC_OWNER
-* CAP_KILL
-* CAP_LEASE (since Linux 2.4)
-* CAP_LINUX_IMMUTABLE
-* CAP_MAC_ADMIN (since Linux 2.6.25)
-* CAP_MAC_OVERRIDE (since Linux 2.6.25)
-* CAP_MKNOD (since Linux 2.4)
-* CAP_NET_ADMIN
-* CAP_NET_BIND_SERVICE
-* CAP_NET_RAW
-* CAP_SETGID
-* CAP_SETFCAP (since Linux 2.6.24)
-* CAP_SETPCAP
-* CAP_SETUID
-* CAP_SYS_ADMIN
-* CAP_SYS_BOOT
-* CAP_SYS_CHROOT
-* CAP_SYS_MODULE
-* CAP_SYS_NICE
-* CAP_SYS_PACCT
-* CAP_SYS_PTRACE
-* CAP_SYS_RAWIO
-* CAP_SYS_RESOURCE
-* CAP_SYS_TIME
-* CAP_SYS_TTY_CONFIG
-* CAP_SYSLOG
-* CAP_WAKE_ALARM
+
               
 ## Linux history
 * What is POSIX
@@ -506,6 +436,3 @@
 * waitpid (2)          - wait for process to change state
 * write (2)            - write to a file descriptor
 * writev (2)           - read or write data into multiple buffers
-
-## Commands
-* What are the different shells

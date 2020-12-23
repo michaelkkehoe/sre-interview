@@ -1,23 +1,68 @@
+# Observability
+
 ## Monitoring concepts
-1. What is white-box monitoring
-2. What is black-box monitoring
-3. What is the purpose of external monitoring
-4. What are some factors to consider with external monitoring?
-5. Explain TTD, TTR and the importance of measuring it?
+
+*Q: What is white-box monitoring?*
+A: White box monitoring is where you know the internals of the system. And the system has instrumentation in place to emit telemetry—metrics, logs, traces, etc (https://www.scalyr.com/blog/black-box-monitoring-track-opaque-systems/)
+
+*Q: What is black-box monitoring?*
+A: Black box monitoring is where you don’t have control and don’t know what’s happening inside the system. You only monitor the system from the outside—its behavior. (https://www.scalyr.com/blog/black-box-monitoring-track-opaque-systems/)_
+
+*Q: What is the purpose of external monitoring?*
+A: To ensure that your users can access your website (and that performance is acceptable). External monitoring helps detect CDN/ ISP issues.
+
+*Q: What are some factors to consider with external monitoring?*
+A: Cost (usually there is a cost to each test and/ or frequency). Ensuring that you do not DOS systems. 
+
+*Q: Explain TTD, TTR and the importance of measuring it?*
+A: 
+
+* TTD: Time to detect
+* TTR: Time to resolve
+* Measuring these provide Key Performance Indicators (KPI) if your incident response is improving
 
 ## Distributed Tracing
-1. What are the benefits of distributed tracing?
+
+*Q: What are the benefits of distributed tracing?*
+A: You can get rich signals into where things are unhealthy in your system
+
+*Q: What are some of the challenges with distributed tracing?*
+A: Sampling, bias.
 
 ## Human-Ops
-1. How to you detect alert fatigue?
-2. How do you prevent alert fatigue?
+
+*Q: How to you detect alert fatigue?*
+A: Report on how many alerts are firing for each team/ service
 
 ## Auto-remediation
-1. Describe the pros of an auto-remediation system
-2. Describe the cons of an auto-remediation system
-3. What are the key features of an auto-remediation system.
+
+*Q: Describe the pros of an auto-remediation system?*
+A:
+
+* Can be used to remediate live-sit incidents
+* Can be used to perform automatic investigation during live-site incident
+
+*Q: Describe the cons of an auto-remediation system?*
+A:
+
+* Can easily hide issues that get swept under the rug
+
+
+*Q: What are the key features of an auto-remediation system?*
+A:
+
+* Ability to deploy
+* Ability to auto-scale
+* Ability to perform remote-execution
+* Ability to query monitoring/ alerting sources
 
 ## Postmortems
-1. What is the purpose of postmortems?
-2. How do you practice blameless postmortems?
-3. What methods would you use to ensure postmortems are being held?
+
+*Q: What is the purpose of postmortems?*
+A:
+
+*Q: How do you practice blameless postmortems?*
+A:
+
+*Q: What methods would you use to ensure postmortems are being held?*
+A: 
