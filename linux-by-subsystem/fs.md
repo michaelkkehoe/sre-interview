@@ -114,15 +114,6 @@ A: All files (and directories) have its description stores in an inode. An inode
 
 A: Disable atime modification in /etc/fstab
 
-*Q: Where are filenames stored?*
-*Q: What is a Hard Link?*
-*Q: What is a Soft Link?*
-Q: What is the /proc filesystem?*
-*Q: What is the maximum length of a filename under linux?*
-*Q: What are filenames that are preceded by a dot?*
-*Q: What is a FIFO pipe?*
-*Q: What is the difference between ext4 and ext3?*
-
 *Q: What are the different types of IPC?*
 
 A:
@@ -134,26 +125,6 @@ A:
   * Message Queues
   * Semaphores
   * Shared memory
-
-*Q: What is an inode?*
-
-A: All files (and directories) have its description stores in an inode. An inode contains the following fields
-
-  * Device ID
-  * File serial numbers
-  * The file mode which determines file type and how the file owners can access the file
-  * A link count telling how many hard links point to the inode
-  * User ID of the file owners
-  * group ID of the file
-  * Device ID of the file if it's a device file
-  * File size in bytes
-  * Timestamps telling when the inode itself was last modified (ctime), the file content was modified (mtime) and last accessed (atime)
-  * preferred I/O block size
-  * The number of blocks allocated to this file
-
-*Q:How can you speed up accessing files?*
-
-A: Disable atime modification in /etc/fstab  
 
 *Q: Where are filenames stored?*
 
