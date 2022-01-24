@@ -83,17 +83,6 @@ A: They are:
 
 A: A file descriptor is a number that uniquely identifies an open file in a computer's operating system. It describes a data resource, and how that resource may be accessed.
 
-*Q: What are the different types of IPC?*
-
-A:
-  * Signals
-  * Pipes
-  * Sockets
-  * File locking
-  * Message Queues
-  * Semaphores
-  * Shared memory
-
 *Q: What is an inode?*
 
 A: All files (and directories) have its description stores in an inode. An inode contains the following fields
