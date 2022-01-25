@@ -1,12 +1,6 @@
 # IPC
 
 *Q: What is IPC?*
-A: 
-Signals
-Pipes
-Sockets
-File Locking
-Message Queues
-Semaphores
-Shared Memory
+
+A: https://www.geeksforgeeks.org/inter-process-communication-ipc/
 
